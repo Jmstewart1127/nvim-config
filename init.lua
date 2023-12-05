@@ -20,4 +20,6 @@ if astronvim.default_colorscheme then
   end
 end
 
+colorscheme = "catppuccin"
+
 require("astronvim.utils").conditional_func(astronvim.user_opts("polish", nil, false), true)
